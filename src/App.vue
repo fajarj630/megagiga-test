@@ -2,6 +2,7 @@
   <div id="app">
     <Topbar v-if="path !== '/login' && path !== '/register'" />
     <router-view/>
+    <Footer class="bg-primary text-white py-2">Marketplace</Footer>
   </div>
 </template>
 
